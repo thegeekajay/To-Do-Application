@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+    	<title>HTML5 To-Do Application - localStorage</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+        <script src="script.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.17/jquery-ui.min.js"></script>
+        <script src="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.2.2/js/bootstrap.min.js"></script>
+    </head>
+    
+    <body>
+        <div class="container">
+            <div class="row" id="head_title">
+                	<h2 style="margin-left:20px">HTML5 To-Do Application - localStorage</h1>
+			</div>
+			<div class="row" id="main_body">
+
+				<div class="col-md-3">
+					<div class="outer_box">
+						<h5>Pending</h5>
+						<div class="task_container1">
+
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="outer_box">
+						<h5>In Progress</h5>
+						<div class="task_container2" style="height:100%">
+
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="outer_box">
+						<h5>Completed</h5>
+						<div class="task_container3">
+						
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3" style="color:white">
+					<div id="task_title">
+						Add a task..
+					</div>
+					<div id="task_body">
+						<form role="form" style="margin-right:10px;" id="todo_form">  
+							<div class="form-group">    
+								<input type="text" id="todo_title" class="form-control input-sm" placeholder="Title" > 
+							</div>  
+							<div class="form-group">
+								<textarea class="form-control input-sm" rows="3" placeholder="Add description" id="todo_desc"></textarea>
+							</div>  
+							<div class="form-group">							
+								<input type="text" id="todo_date" class="form-control input-sm" placeholder="Due Date DD/MM/YYYY" >
+							</div>
+							<button type="submit" class="btn btn-default btn-sm">Add</button>
+						</form>
+					</div>
+					<div>
+					</div>
+
+				</div>
+
+
+
+			</div>
+
+		</div>
+	</body>
+</html>
